@@ -1,8 +1,7 @@
-
 .content {
   flex: 1;
   padding: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #f4f6f9;
 }
 
@@ -47,7 +46,8 @@ table {
   background: #fff;
 }
 
-table th, table td {
+table th,
+table td {
   border: 1px solid #ccc;
   padding: 8px 10px;
   text-align: left;
@@ -66,7 +66,7 @@ table th {
   display: flex;
   gap: 6px;
   text-decoration: none;
-   
+  margin-right: 50px;
 }
 .aksi a {
   padding: 4px 8px;
