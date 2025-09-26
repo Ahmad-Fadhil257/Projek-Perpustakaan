@@ -61,25 +61,24 @@ input[type="number"]:focus {
   font-size: 14px;
   border-radius: 4px;
   border: none;
-  cursor: pointer;
   text-decoration: none;
   display: inline-block;
 }
 
-.btn-primary {
+.btn-simpan {
   background: #007bff;
   color: #fff;
 }
 
-.btn-primary:hover {
+.btn-simpan:hover {
   background: #0056b3;
 }
 
-.btn-secondary {
+.btn-batal {
   background: #6c757d;
   color: #fff;
 }
 
-.btn-secondary:hover {
+.btn-batal:hover {
   background: #565e64;
 }

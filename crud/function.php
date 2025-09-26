@@ -14,5 +14,22 @@ function tampilkan($conn) {
     $data [] = $isi;
   }
   return $data;
+}   
+
+//hapus
+function hapusBuku($conn, $id) {
+  $sql = "DELETE FROM buku WHERE id = $id";
+  return mysqli_query($conn, $sql);
+}
+
+//edit
+function updateBuku($conn, $id, $judul, $penulis, $penerbit, $tahun) {
+  $sql = "UPDATE buku SET 
+            judul    = '$judul', 
+            penulis  = '$penulis', 
+            penerbit = '$penerbit', 
+            tahun    = '$tahun' 
+          WHERE id = $id";
+  return mysqli_query($conn, $sql);
 }
 ?>

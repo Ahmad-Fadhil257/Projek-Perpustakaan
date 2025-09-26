@@ -39,8 +39,8 @@ $buku = tampilkan($conn);
             <td><?= $isi['penerbit']; ?></td>
             <td><?= $isi['tahun']; ?></td>
             <td class="aksi">
-              <a href="edit.php?id=<?= $isi['id']; ?>" class="edit">Edit</a>
-              <a href="hapus.php?id=<?= $isi['id']; ?>" class="hapus" 
+              <a href="./crud/edit.php?id=<?= $isi['id']; ?>" class="edit">Edit</a>
+              <a href="./crud/hapus.php?id=<?= $isi['id']; ?>" class="hapus" 
                  onclick="return confirm('Yakin mau hapus buku ini?')">Hapus</a>
             </td>
           </tr>
