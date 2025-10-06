@@ -13,7 +13,7 @@
       <ul>
         <li><a href="dashboard.php">Dashboard</a></li>
         <li><a href="data-buku.php">Data Buku</a></li>
-        <li><a href="anggota.php">Data Anggota</a></li>
+        <li><a href="data-anggota.php">Data Anggota</a></li>
         <li><a href="transaksi.php">Transaksi</a></li>
           <li><a href="login.php" style="color: red;">Logout</a></li>
       </ul>

@@ -9,7 +9,7 @@ $buku = tampilkan($conn);
 <div class="content">
   <h1 style="margin-left: 20px;">📚 Data Buku</h1>
   <div class="toolbar">
-    <a href="./crud/tambah.php" class="btn">+ Tambah Buku</a>
+    <a href="./crud/tambah-buku.php" class="btn">+ Tambah Buku</a>
     <div class="search-box">
       <form method="GET">
         <input type="text" name="cari" placeholder="Cari buku...">
@@ -35,12 +35,12 @@ $buku = tampilkan($conn);
           <tr>
             <td class="id"><?= $isi['id']; ?></td>
             <td><?= $isi['judul']; ?></td>
-            <td><?= $isi['penulis']; ?></td>
+            <td><?= $isi['penulis']; ?></td>  
             <td><?= $isi['penerbit']; ?></td>
             <td><?= $isi['tahun']; ?></td>
             <td class="aksi">
-              <a href="./crud/edit.php?id=<?= $isi['id']; ?>" class="edit">Edit</a>
-              <a href="./crud/hapus.php?id=<?= $isi['id']; ?>" class="hapus" 
+              <a href="./crud/edit-buku.php?id=<?= $isi['id']; ?>" class="edit">Edit</a>
+              <a href="./crud/hapus-buku.php?id=<?= $isi['id']; ?>" class="hapus" 
                  onclick="return confirm('Yakin mau hapus buku ini?')">Hapus</a>
             </td>
           </tr>
